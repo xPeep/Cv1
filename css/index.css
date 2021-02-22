@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.menu {
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: auto;
+}
+
+#menu a {
+    color: black;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.button {
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    width: 200px;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: auto;
+    border-radius: 2px;
+}
+
+.pageHeading {
+    font-size: 85px;
+    margin: 0;
+    padding-top: 200px;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+
+#hero {
+    text-align: center;
+    background-image: url("../img/title.jpg");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.blogPostPreview {
+    width: 200px;
+}
+
+.textCentered{
+    text-align: center;
+}
+
+.textCenteredAndBold{
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 25px;
+}
+
+.profileImage{
+    width: 350px;
+}
+
+.blogPostPreview > img {
+    width: 200px;
+}
+
+.blogPostList {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.centeredContentWrapper {
+    width: 1000px;
+    margin: auto;
+}
+
+.aboutMeSection {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+}
